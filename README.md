@@ -53,4 +53,6 @@ Here is an overview of the file structure:
 To run this locally, download the files, install Node.js, and install the necessary programs packages. Then, run:
 ```node app.js```.
 
+The coderunner communicates with backend via GCloud internal IP addresses. All GCloud workings are important but are only accessible by CT Officers. To do local testing, one option is to keep coderunner and backend in the same "website," using POST request to pseudo-communicate across the two. 
+
 Current Developers: Gabriel Xu, Johnny Liu, and Daniel Qiu
